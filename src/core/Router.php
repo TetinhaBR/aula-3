@@ -19,7 +19,7 @@
             if(!is_null($uri)){
                 $this->uri = $uri;
             }
-            if(is_null($method)){
+            if(!is_null($method)){
                 $this->method = $method;
             }
         }

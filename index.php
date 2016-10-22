@@ -35,16 +35,16 @@ require_once 'vendor/autoload.php';
 
         <?php
 
-            $router = new Router();
+            $router = new Router('/exercicio/6', 'GET');
 
             $router->get('/exercicio/6', function(){
-                $exercicio = __DIR__.'/exercicio-6'.'file.php';
+                $exercicio = __DIR__.'/exercicio-6/'.'file.php';
                 if(file_exists($exercicio)){
                     require_once $exercicio;
                 }
-            })
+            });
 
-
+            $router->run();
         ?>
     </body>
 </html>
