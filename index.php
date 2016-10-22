@@ -1,5 +1,7 @@
 <?php
 
+use Fagoc\Core\Router;
+
 define('__APP_ROOT__', __DIR__);
 
 require_once 'vendor/autoload.php';
@@ -30,11 +32,21 @@ require_once 'vendor/autoload.php';
 
           </div>
         </nav>
+        <pre>
+
         <?php
-        $exercicio = __DIR__ . '/exercicio-' . get('e') . '/' . 'file.php';
-        if (file_exists($exercicio)) {
-            require_once $exercicio;
-        }
+
+            $router = new Router();
+
+            $router->get('/exercicio/6', function(){
+                $exercicio = __DIR__.'/exercicio-6'.'file.php';
+                if(file_exists($exercicio)){
+                    require_once $exercicio;
+                }
+            })
+
+
         ?>
+    </pre>
     </body>
 </html>
