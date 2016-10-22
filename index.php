@@ -32,7 +32,6 @@ require_once 'vendor/autoload.php';
 
           </div>
         </nav>
-        <pre>
 
         <?php
 
@@ -47,6 +46,5 @@ require_once 'vendor/autoload.php';
 
 
         ?>
-    </pre>
     </body>
 </html>

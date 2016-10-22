@@ -1,5 +1,5 @@
 <?php
-    namespace Fagoc\Core\Router;
+    namespace Fagoc\Core;
 
     class Router {
         private $method = "get";

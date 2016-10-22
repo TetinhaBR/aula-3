@@ -12,7 +12,7 @@
     "autoload": {
         "psr-4": {
             "Fagoc\\": "src/model",
-            "Fagoc\\": "src/core"
+            "Fagoc\\Core\\": "src/core"
         },
         "files": [
             "bootstrap.php"
