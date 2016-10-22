@@ -23,9 +23,9 @@ require_once 'vendor/autoload.php';
             </div>
 
             <div class="nav-right nav-menu">
-                <a class="nav-item" href="index.php?e-6"> Exercicio 6 </a>
-                <a class="nav-item" href="index.php?e-7"> Exercicio 7 </a>
-                <a class="nav-item" href="index.php?e-8"> Exercicio 8 </a>
+                <a class="nav-item" href="index.php?e=6"> Exercicio 6 </a>
+                <a class="nav-item" href="index.php?e=7"> Exercicio 7 </a>
+                <a class="nav-item" href="index.php?e=8"> Exercicio 8 </a>
             </div>
 
           </div>
