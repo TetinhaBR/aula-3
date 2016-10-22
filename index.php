@@ -28,7 +28,9 @@ require_once 'vendor/autoload.php';
         </nav>
         <pre>
         <?php
+
         use Fagoc\Core\Router;
+
         $router = new Router('/exercicio/6', 'GET');
         $router->get('/exercicio/6', function() {
             $exercicio = __DIR__ . '/exercicio-6/' . 'file.php';
@@ -36,6 +38,8 @@ require_once 'vendor/autoload.php';
                 require_once $exercicio;
             }
         });
+        
+
         $router->run();
         ?>
     </pre>

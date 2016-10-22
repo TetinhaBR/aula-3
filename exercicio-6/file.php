@@ -8,5 +8,5 @@ use Fagoc\Calculadora;
 
 $calculadora = new Calculadora('William');
 
-var_dump($calculadora);
-var_dump(post('operacao'));
+//var_dump($calculadora);
+//var_dump(post('operacao'));
