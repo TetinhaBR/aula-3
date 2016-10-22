@@ -17,7 +17,7 @@ require_once 'vendor/autoload.php';
           <div class="container">
 
             <div class="nav-left">
-                <a class="nav-item" href = "index.php">
+                <a class="nav-item is-brand" href = "index.php">
                   <img src="http://www.fagoc.br/download/a/logo" alt="logo"/>
                 </a>
             </div>

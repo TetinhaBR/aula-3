@@ -1,0 +1,4 @@
+option +FollowSymLinks
+
+RewriteEngine on
+RewriteRule ^(.*)$ index.php
